@@ -1,0 +1,133 @@
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: "Ghost Clan Outline", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  font-size: 6vw;
+  letter-spacing: 4px;
+  margin: 0 0 3%;
+  line-height: normal;
+  color: white;
+
+  position: absolute;
+  display: flex;
+  left: 10%;
+  top: 45%;
+}
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.8vw;
+  margin-bottom: 4rem;
+  color: #fff;
+
+  position: absolute;
+  display: flex;
+  top: 25%;
+  margin-left: 3%;
+}
+
+/* Navbar section CSS*/
+.navigation-bar {
+  position: sticky;
+  background: rgb(0, 51, 153);
+  background: linear-gradient(0deg, rgba(0, 51, 153, 1) 0%, rgba(123, 27, 187, 1) 85%);
+}
+
+.navbar-brand {
+  font-family: "Ghost Clan Laser", sans-serif;
+  font-size: 2rem;
+  padding: 0;
+  color: white;
+}
+
+.nav-link {
+  font-family: "Ghost Clan", sans-serif;
+  color: white;
+}
+
+/* Navbar section CSS end*/
+
+
+/* Main section CSS */
+.main_section {
+  background: rgb(0, 51, 153);
+  background: linear-gradient(0deg, rgba(0, 51, 153, 1) 0%, rgba(83, 23, 208, 1) 25%, rgba(153, 0, 255, 1) 50%, rgba(95, 19, 216, 1) 75%, rgba(0, 51, 153, 1) 100%);
+
+  height: 90vh;
+  display: flex;
+  padding: 3% 5% 5%;
+  position: relative;
+  overflow: hidden;
+}
+
+.visit_us_header {
+  color: #fff;
+}
+
+.visit_us_header:hover {
+  color: #ffc400;
+}
+
+/* Google Map plugin CSS */
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 600px;
+  height: 500px;
+  left: 50%;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 600px;
+  height: 500px;
+}
+
+.gmap_iframe {
+  width: 600px !important;
+  height: 500px !important;
+}
+/* Main section CSS end */
+
+
+/* Footer CSS */
+.container-footer {
+  padding: 1% 3%;
+  background-color: #e6e6e6;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: rgb(0, 51, 153);
+  background: linear-gradient(180deg, rgba(0, 51, 153, 1) 0%, rgba(123, 27, 187, 1) 85%);
+}
+
+.social-icon {
+  width: 18px;
+  height: 16px;
+  margin: 15px 10px 5px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.personal_fb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  color: white;
+}
+
+.personal_fb_link {
+  font-family: "FiraGO", sans-serif;
+  color: white;
+}
+
+.personal_fb_link:hover {
+  color: #ffc400;
+}
+/* Footer CSS end */

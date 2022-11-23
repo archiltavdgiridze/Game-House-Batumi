@@ -1,0 +1,196 @@
+/* Head CSS */
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: "Ghost Clan Outline", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  font-size: 4vw;
+  letter-spacing: 4px;
+  margin: 0 0 7%;
+  line-height: normal;
+  color: white;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.8vw;
+}
+
+/* Main section */
+.navigation-bar {
+  position: sticky;
+  background: linear-gradient(to top right, #003399 0%, #9900ff 88%);
+}
+
+.navbar-brand {
+  font-family: "Ghost Clan Laser", sans-serif;
+  font-size: 2rem;
+  padding: 0;
+  color: white;
+}
+
+.nav-link {
+  font-family: "Ghost Clan", sans-serif;
+  color: white;
+}
+
+.navbar-toggler {
+  background-color: #ffffff45;
+}
+
+/* Navigation bar section CSS end */
+
+
+/* Main section CSS */
+.container-main {
+  padding: 3% 3% 7%;
+  background: linear-gradient(to bottom right, #003399 0%, #9900ff 88%);
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  position: relative;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Image blur & hover /w text */
+.main-pg-img {
+  margin: 0 auto 0;
+  border-radius: 2%;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  transition: 1s ease;
+  backface-visibility: hidden;
+}
+
+.text {
+  font-family: "Ghost Clan", sans-serif;
+  color: #fff;
+  font-size: 2.5vw;
+  transition: 1s ease;
+  opacity: 0.1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.column:hover .main-pg-img {
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+  opacity: 1;
+  font-size: 80%;
+}
+
+.column:hover .middle {
+  opacity: 1;
+}
+
+.column:hover .text {
+  opacity: 1;
+  font-size: 3vw;
+}
+
+/* Features section */
+#carousel-main {
+  background: linear-gradient(to top right, #003399 0%, #9900ff 88%);
+  height: 93vh;
+}
+
+.crsl-1 {
+  display: block;
+  width: 30vw;
+  margin: auto;
+}
+
+.crsl-2-1 {
+  width: 25vw;
+  align-items: center;
+}
+
+.crsl-2-2 {
+  width: 300px;
+  align-items: center;
+}
+
+.carousel-2-img {
+  margin: 40px 25%;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-caption {
+  position: sticky;
+}
+
+.carousel-text-main {
+  font-family: "Ghost Clan Outline", sans-serif;
+  font-weight: 550;
+  text-align: center;
+  font-size: 3vw;
+  margin: 0 16% 1.5%;
+  color: white;
+}
+
+.carousel-text-sm {
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 1.5vw;
+  margin: 0 25% 3%;
+  color: white;
+}
+
+/* Features carousel section CSS end */
+
+
+/* Footer CSS */
+.container-footer {
+  padding: 1% 3%;
+  background-color: #e6e6e6;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #003399 0%, #9900ff 88%);
+}
+
+.social-icon {
+  width: 18px;
+  height: 16px;
+  margin: 15px 10px 5px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.personal_fb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  color: white;
+}
+
+.personal_fb_link {
+  font-family: "FiraGO", sans-serif;
+  color: white;
+}
+
+.personal_fb_link:hover {
+  color: #ffc400;
+}
+/* Footer CSS end */
